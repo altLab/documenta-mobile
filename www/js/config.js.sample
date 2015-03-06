@@ -1,0 +1,8 @@
+// sample application config file
+
+Documenta.Config = {
+  "webdav": {
+     "host": "demo.owncloud.org/remote.php/webdav/",
+     "useHTTPS": true,
+  }
+};

@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <link rel="stylesheet" href="bower_components/mocha/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="bower_components/assert/assert.js"></script>
+    <script src="bower_components/mocha/mocha.js"></script>
+    <script>mocha.setup('bdd')</script>
+
+    <!-- test application startup -->
+    <script src="bower_components/zeptojs/src/zepto.js"></script>
+    <script src="bower_components/zeptojs/src/event.js"></script>
+    <script src="bower_components/zeptojs/src/ajax.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/mustache.js/mustache.js"></script>
+
+    <script src="js/init.js"></script>
+    <script src="test/test_init.js"></script>    
+
+    <!-- test webdavjs access (does not work properly)
+    
+    <script src="js/lib/webdav.js"></script>
+    <script src="test/test_webdav.js"></script>
+
+    -->
+    
+    <!-- test webdav client access -->
+    <script src="js/lib/webdav-client.js"></script>
+    <script src="test/test_webdav_client.js"></script>
+
+    <script>
+     mocha.checkLeaks();
+     mocha.run();
+    </script>
+  </body>
+</html>

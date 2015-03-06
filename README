@@ -1,0 +1,25 @@
+# Documenta mobile app
+
+This app is Free Software licensed under the GNU General Pblic License
+v3. See the file COPYING for details.
+
+## Development
+
+Install [NPM](http://npmjs.org)
+
+Install the Apache Cordova CLI tool:
+
+    npm install -g cordova
+
+Install frontend dependencies:
+
+    npm install -g bower
+    cd www
+    bower install
+
+Install the Android SDK
+
+Build and run the app:
+
+    cordova run android
+    

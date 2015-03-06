@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+        <title>Documenta!</title>
+	
+	<!-- load ink -->
+	<script src="bower_components/InkJS/dist/js/holder.js"></script>	
+	<script src="bower_components/InkJS/dist/js/ink-all.min.js"></script>
+	<script src="bower_components/InkJS/dist/js/autoload.js"></script>
+
+	<!-- load styles -->
+	<link rel="stylesheet" type="text/css" href="bower_components/InkJS/dist/css/ink-flex.min.css" />
+	<link rel="stylesheet" type="text/css" href="bower_components/InkJS/dist/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/documenta.css" />
+
+    </head>
+    <body>
+      <div class="ink-grid">
+	<div class="column-group vertical-space">
+	  <nav class="ink-navigation all-100">
+	    <ul class="menu horizontal blue">
+	      <li class="heading"><a href="#">Documenta!</a></li>
+	    </ul>
+	  </nav>
+	</div>
+	<div id="main">
+	  <i class="fa fa-refresh fa-spin fa-5x blue"></i>
+	</div>
+      </div>
+      
+      <!-- load libraries -->
+      <script src="bower_components/zeptojs/src/zepto.js"></script>
+      <script src="bower_components/zeptojs/src/event.js"></script>
+      <script src="bower_components/zeptojs/src/ajax.js"></script>
+      <script src="bower_components/underscore/underscore.js"></script>
+      <script src="bower_components/backbone/backbone.js"></script>
+      <script src="bower_components/mustache.js/mustache.js"></script>
+      <script src="js/lib/webdav-client.js"></script>
+      <script src="cordova.js"></script>
+
+      <!-- bootstrap app -->
+      <script src="js/init.js"></script>
+      <script src="js/config.js"></script>
+      <script src="js/storage.js"></script>
+      
+      <!-- load models -->
+      <script src="js/models/user.js"></script>
+      <script src="js/models/project.js"></script>
+      <script src="js/models/project_list.js"></script>       
+
+      <!-- load views -->
+      <script src="js/views/login.js"></script>
+      <script src="js/views/load.js"></script>
+      <script src="js/views/dashboard.js"></script>
+      
+      <!-- setup routes -->
+      <script src="js/routes.js"></script>
+       
+      <!-- start app -->
+      <script src="js/app.js"></script>
+    </body>
+</html>

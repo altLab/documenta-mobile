@@ -1,0 +1,35 @@
+{
+  "name": "documenta",
+  "version": "0.0.1",
+  "authors": [
+    "Pedro Ângelo <pangelo@void.io>"
+  ],
+  "description": "A mobile app for documenting altLab hackerspace projects",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "cordova",
+    "mobile",
+    "documentation"
+  ],
+  "license": "GPL v3",
+  "homepage": "http://altlab.org/members/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "InkJS": "~3.1.4",
+    "assert": "~0.1.0",
+    "backbone": "~1.1.2",
+    "mocha": "~2.1.0",
+    "mustache.js": "~1.1.0",
+    "zeptojs": "~1.1.6"
+  }
+}
