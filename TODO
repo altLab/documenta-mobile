@@ -1,14 +1,10 @@
 # documenta mobile TODO
 
- * Documenta.rt.storage.sync
-
- * tests
-   * models
-   * views
-   * routes?
-
- * git repo
-
- * build docs
-
- * license info
+ * test Documenta.rt.storage.connect
+ * debug login view render
+ * implement Documenta.rt.storage.sync
+ * load backend data
+ * display dashboard
+ * user data editing
+ * project data editing
+ * improve build docs
