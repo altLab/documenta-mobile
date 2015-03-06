@@ -3,6 +3,6 @@
 Documenta.Config = {
     "webdav": {
 	"host": "altlab.org/altdrive/remote.php/webdav/",
-	"useHTTPS": true,
+	"useHTTPS": false,
     }
 };
